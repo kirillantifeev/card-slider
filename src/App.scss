@@ -1,0 +1,39 @@
+.App {
+    margin-inline-start: 240px;
+
+    @media (max-width: 1440px) {
+        margin: 0;
+    }
+}
+
+.slider {
+    margin-block-start: 40px;
+
+    @media (max-width: 1440px) {
+        margin-inline: 24px;
+    }
+
+    @media (max-width: 1280px) {
+        margin-inline: 30px;
+    }
+
+    @media (max-width: 1024px) {
+        margin-inline: 24px;
+    }
+
+    @media (max-width: 470px) {
+        margin-inline: 21.97px;
+    }
+
+    @media (max-width: 320px) {
+        margin-block-start: 20px;
+    }
+
+    @media (max-width: 768px) {
+       margin-block-start: 40.77px;
+    }
+
+    @media (max-width: 320px) {
+       margin-block-start: 20px;
+    }
+}
